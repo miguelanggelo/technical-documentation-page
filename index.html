@@ -1,0 +1,120 @@
+
+<body>
+    <link rel="stylesheet" href="main.css">
+    
+    <nav id="navbar">
+        <header>JavaScript</header>
+        <ul>
+            <li><a class="nav-link" href="#¿Que_es_JS?">¿Que es JS?</a></li>
+            <li><a class="nav-link" href="#Tipos_de_datos">Tipos de datos</a></li>
+            <li><a class="nav-link" href="#Operadores">Operadores</a></li>
+            <li><a class="nav-link" href="#if/else">if/else</a> </li>
+            <li><a class="nav-link" href="#Objetos">Objetos</a> </li>
+            <li><a class="nav-link" href="#Loops">Loops</a></li>
+            <li><a class="nav-link" href="#Calculos_matematicos">Calculos matematicos</a></li>       
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="¿Que_es_JS?">
+            <header>¿Que es JS?</header>
+            <p>Es un lenguaje multiproposito util para escribir y programar codigo. Es usado tanto en fronend como backend. Brinda el dinamismo, versatilidad y desenvolvimiento a los sitios webs</p>
+
+            <p>Admite diversos frameworks como:
+                <ul>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="main-section" id="Tipos_de_datos">
+            <header>Tipos de datos</header>
+            <p>Para las computadoras, los datos son cualquier tipo de informacion que procesen</p>
+            <p>Javascript admite 8 tipos de datos</p>
+            <ul>
+                <li>Strings</li>
+                <li>Arrays</li>
+                <li>Numbers</li>
+                <li>Objects</li>
+                <li>Boolean</li>
+                <li>Symbol</li>
+                <li>Null</li>
+                <li>Undefined</li>
+            </ul>
+
+            <p>Los strings o cadenas, se identifican con '' o "". Añadiendoles + entre las '' se pueden formar concatenaciones mas complejas</p>
+
+            <p>los arrays estan dentro de []. Se puede acceder a ellos y modificarlos a traves de la variable y su numero indice</p>
+            <code>var arr1 = [1,2,3];
+                arr1.push(4);
+                // arr1 is now [1,2,3,4]
+            </code>    
+        </section>
+
+        <section class="main-section" id="Operadores">
+            <header>Operadores</header>
+            <p>son aquellos que permiten realizar una operacion matematica o representan algo en especifico</p>
+            <ul>
+                <li>=, lo que esta a la derecha es el valor del lado izquierdo</li>
+                <li>==, igual que</li>
+                <li>===, estrictamente igual</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="if/else">
+            <header>if/else</header>
+            <p>If indica que se ejecute el codigo dentro de la declaracion, de ser verdadero se ejecutara. else indicara que codigo ejecutar en caso de que el resultado dentro de la declaracion sea falso</p> 
+            <code>if (num > 10) {
+                return "Bigger than 10";
+            } else {
+                return "10 or Less";
+            }
+            </code>
+            <p>en ocasiones que hay multiples opciones se utilisa else if</p>
+            <code>if (num > 15) {
+                return "Bigger than 15";
+            } else if (num < 5) {
+                return "Smaller than 5";
+            } else {
+                return "Between 5 and 15";
+            }
+            </code>
+        </section>
+
+        <section class="main-section" id="Objetos">
+            <header>Objetos</header>
+            <p>son similares a los arrays, contenedores de datos, en este caso contenedores de datos que asemejan objetos en la vida real, describe las caracteristicas del objeto.Al objeto lo conforman las propiedades, este se puede modificar a traves de ellas. las propiedades bien pueden ser strings o numeros. en caso de olvidar algun detalle de string, JS lo autocompletara.</p>
+            <code>var cat = {
+                "name": "Whiskers",
+                "legs": 4,
+                "tails": 1,
+                "enemies": ["Water", "Dogs"]
+            };
+            </code>
+        </section>
+
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>una secuencia de codigo se puede ejecutar multiples veces con loop. Se usan las declaraciones while loop, for loop, do while y recursion</p>
+            <code>
+                var ourArray = [];
+                var i = 0;
+                while(i < 5) {
+                ourArray.push(i);
+                i++;
+                }
+            </code>
+        </section>
+
+        <section class="main-section" id="Calculos_matematicos">
+            <header>Calculos matematicos</header>
+            <p>En JS se pueden hacer las operaciones matematicas basicas: +,-, / y *.</p>
+            <p></p> 
+
+        </section>
+
+    </main>
+</body>
+
